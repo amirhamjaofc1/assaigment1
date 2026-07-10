@@ -109,3 +109,94 @@ img{
   font-size: 14px;
   padding: 0 24px 24px 24px;
 }
+.pricing{
+  text-align: center;
+}
+.pricing h2{
+  font-size: 48px;
+  color: #0D1B2A;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.pricing p{
+  color: #575757;
+  margin-bottom: 50px;
+}
+.pricing-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.card{
+  padding: 30px;
+  border-radius: 12px;
+
+}
+.card1{
+  border: 1px solid #E5E7EB;
+}
+.card3{
+  border: 1px solid #E5E7EB;
+  background-color: #F8F9FB;
+}
+
+.pricing-cards .card1 h5 , .card3  h5{
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.pricing-cards .card1 h2 , .card3  h2{
+  color: #0D1B2A;
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.pricing-cards .card1 h6 , .card3  h6{
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+hr{
+  border: none;
+  height: 2px;
+  background-color: #E5E7EB;
+  margin-bottom: 20px;
+}
+.card1 .card-list , .card3 .card-list {
+  margin-left: 25px;
+}
+.card1 .card-list li , .card3 .card-list li{
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card1 .card-list li::marker , .card3 .card-list li::marker{
+  color: #2563EB;
+}
+.btn1{
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  color: #2563EB;
+  padding: 10px 100px;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.btn3{
+
+  border: 1px solid #0D1B2A;
+  border-radius: 8px;
+  color: #0D1B2A;
+  padding: 10px 100px;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
