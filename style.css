@@ -244,3 +244,71 @@ hr {
   font-weight: 600;
   margin-top: 20px;
 }
+
+/* ai challeneges */
+
+.ai-challenge{
+  margin: 80px 0 120px 0
+}
+.ai-text h2{
+  color: #0d1b2a;
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.number-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.box{
+  border: 1px solid #0d1b2a;
+  text-align: center;
+  padding: 20px 40px;
+}
+.box:hover{
+  border: 1px solid #1d4ed8;
+  background-color: #0d1b2a;
+  transition: 0.3s;
+  text-align: center;
+  padding: 20px 40px;
+  color: white;
+  cursor: pointer;
+}
+.box h2{
+  font-size: 45px;
+}
+.box h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+  color: #1d4ed8;
+}
+footer{
+  background-color: #0D1B2A;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 8%;
+}
+.leftside p{
+  color: #FFFFFF;
+  opacity: 40%;
+  font-size: 16px;
+
+}
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.footer-links li a{
+  text-decoration: none;
+  color: #fff;
+  opacity: 40%;
+}
