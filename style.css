@@ -15,6 +15,13 @@ img {
   border-radius: 12px;
   border: none;
 }
+.btn-color:hover {
+  background-color: white;
+  color: #1d4ed8;
+  border-radius: 12px;
+  border: 1px solid #1d4ed8;
+  transition: 0.3s;
+}
 .container {
   padding: 25px 8%;
 }
@@ -194,6 +201,17 @@ hr {
   font-weight: 600;
   margin-top: 20px;
 }
+.btn1:hover {
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 100px;
+  background-color: #1d4ed8;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: 0.3s;
+}
 .btn3 {
   border: 1px solid #0d1b2a;
   border-radius: 8px;
@@ -203,6 +221,17 @@ hr {
   font-size: 14px;
   font-weight: 600;
   margin-top: 20px;
+}
+.btn3:hover {
+  border: 1px solid black;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 100px;
+  background-color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: 0.3s;
 }
 .card2 {
   border: 1px solid #0d1b2a;
@@ -243,6 +272,17 @@ hr {
   font-size: 14px;
   font-weight: 600;
   margin-top: 20px;
+}
+.btn2:hover {
+  border: 1px solid white;
+  border-radius: 8px;
+  color: #1d4ed8;
+  padding: 10px 100px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: 0.3s;
 }
 
 /* ai challeneges */
